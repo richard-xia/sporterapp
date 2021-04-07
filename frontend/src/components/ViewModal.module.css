@@ -1,0 +1,23 @@
+.titlediv {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  max-height: 50px;
+}
+
+.icon:hover {
+  cursor: pointer;
+}
+
+.title {
+  white-space: nowrap;
+  margin-left: 30px;
+}
+
+.title:hover {
+  cursor: pointer;
+  color: blue;
+  text-decoration: underline;
+}

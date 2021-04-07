@@ -1,0 +1,92 @@
+.newbutton {
+  float: right;
+  width: 250px;
+  border-radius: 10px;
+  color: green;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+.newbutton:hover {
+  color: #4285f4;
+}
+
+.users {
+  grid-area: users;
+}
+
+.map {
+  grid-area: map;
+  margin-top: 50px;
+}
+
+.currentGames {
+  grid-area: currentGames;
+}
+
+.previousGames {
+  grid-area: previousGames;
+  margin-left: 15px;
+}
+
+.gameText {
+  font-size: '25px';
+  margin-right: '100px';
+  margin-top: '1px';
+}
+
+.gamesTab {
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+
+.gamestext {
+  display: 'flex';
+  justify-content: 'space-between';
+}
+
+.header {
+  grid-area: header;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 500px 600px;
+  grid-template-rows: 65px 450px 300px;
+  grid-template-areas:
+    'header header'
+    'users map'
+    'currentGames previousGames';
+}
+
+.icon {
+  grid-area: icon;
+}
+
+.name {
+  display: flex;
+  justify-content: center;
+  grid-area: name;
+  font-size: 25px;
+}
+
+.settings {
+  grid-area: settings;
+  margin-right: 5px;
+  float: left;
+}
+
+.requestButton {
+  border-radius: 5px;
+}
+
+.groupinfo {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 125px 240px 135px;
+  grid-template-rows: 100px;
+  grid-template-areas: 'icon name settings';
+}

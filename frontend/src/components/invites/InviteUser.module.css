@@ -1,0 +1,18 @@
+.userIcon {
+  height: 40px;
+  width: 40px;
+  object-fit: cover;
+}
+
+.addicon {
+  font-size: 25px;
+}
+
+.addicon:hover {
+  color: green;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}

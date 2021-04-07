@@ -1,0 +1,20 @@
+.about {
+  grid-area: about;
+}
+
+.links {
+  grid-area: links;
+}
+
+.linksdiv {
+  display: 'flex';
+}
+
+.container {
+  margin-top: 10px;
+  display: grid;
+  margin-left: 120px;
+  grid-template-columns: 70% 30%;
+  grid-template-rows: auto;
+  grid-template-areas: 'about links';
+}

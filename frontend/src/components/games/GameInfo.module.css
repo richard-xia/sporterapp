@@ -1,0 +1,92 @@
+.newbutton {
+  float: right;
+  width: 250px;
+  border-radius: 10px;
+  color: green;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.newbutton:hover {
+  color: #4285f4;
+}
+
+.users {
+  grid-area: users;
+}
+
+.map {
+  grid-area: map;
+  margin-top: 50px;
+}
+
+.teams {
+  grid-area: teams;
+}
+
+.header {
+  grid-area: header;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 500px 600px;
+  grid-template-rows: 65px 450px 300px;
+  grid-template-areas:
+    'header header'
+    'users map'
+    'teams teams';
+}
+
+.icon {
+  grid-area: icon;
+  max-height: 100px;
+  max-width: 100px;
+}
+
+.settings {
+  grid-area: settings;
+}
+
+.finished {
+  grid-area: settings;
+  width: 125px;
+}
+
+.title {
+  margin-top: 10px;
+  font-size: 25px;
+  grid-area: title;
+}
+
+.group {
+  font-size: 15px;
+  margin-top: 20px;
+  grid-area: group;
+}
+
+.group:hover {
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.time {
+  margin-top: 5px;
+  font-size: 15px;
+  grid-area: time;
+}
+
+.gameinfo {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 100px 270px 135px;
+  grid-template-rows: 50px 30px 30px;
+  grid-template-areas:
+    'icon title settings'
+    'icon group settings'
+    'icon time settings';
+}

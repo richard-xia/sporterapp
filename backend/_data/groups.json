@@ -1,0 +1,73 @@
+[
+  {
+    "_id": "5d713995b721c3bb38c1f5d0",
+    "name": "Barrhaven basketball",
+    "description": "Love to play basketball? Join the Barrhaven ballers! We are a group of casual basketball players, welcome to people of all skill level. Games every weekend!",
+    "sports": ["Basketball"],
+    "photo": "basketballsample.jpg",
+    "users": [
+      {
+        "_id": "5d7a514b5d2c12c7449be043",
+        "role": ["creator", "manageUsers", "createGames", "inviteUsers"],
+        "wins": 0,
+        "losses": 0
+      },
+      {
+        "_id": "5d7a514b5d2c12c7449be044",
+        "role": ["manageUsers", "createGames", "inviteUsers"],
+        "wins": 0,
+        "losses": 0
+      },
+      {
+        "_id": "5d7a514b5d2c12c7449be042",
+        "role": ["createGames", "inviteUsers"],
+        "wins": 0,
+        "losses": 0
+      }
+    ],
+    "requests": [
+      {
+        "user": "5d7a514b5d2c12c7449be045",
+        "message": "Hey, I love basketball and I'm interested in joining your group :)"
+      },
+      {
+        "user": "5d7a514b5d2c12c7449be046",
+        "message": "I am looking for people to play shoot hoops with and I would like to join your group!"
+      }
+    ],
+    "groupGames": [
+      { "_id": "5d725a4a7b292f5f8ceff789" },
+      { "_id": "5d725c84c4ded7bcb480eaa0" }
+    ],
+    "location": { "coordinates": [45.270036387846375, -75.76541978874809] }
+  },
+  {
+    "_id": "5d713a66ec8f2b88b8f830b8",
+    "name": "Soccer Superstars",
+    "description": "Show off your superstar soccer skills! We are a group based in Ottawa that play 5 on 5 soccer and futsal.",
+    "sports": ["Soccer"],
+    "location": { "coordinates": [45.26105280646305, -75.77011634818214] },
+    "photo": "soccersample.png",
+    "users": [
+      {
+        "_id": "5d7a514b5d2c12c7449be043",
+        "role": ["creator", "manageUsers", "createGames", "inviteUsers"]
+      }
+    ],
+    "groupGames": [{ "_id": "5d725c84c4ded7bcb480eaa1" }]
+  },
+  {
+    "_id": "5d713a66ec8f2b88b8f830b9",
+    "name": "Soccer and Baseball Players",
+    "description": "Do you enjoy playing soccer or baseball? For players of either sport, come join us!",
+    "location": { "coordinates": [45.279532289286934, -75.76117302504257] },
+    "sports": ["Soccer", "Baseball"],
+    "photo": "soccerbaseballsample.jpg",
+    "users": [
+      {
+        "_id": "5d7a514b5d2c12c7449be043",
+        "role": ["creator", "manageUsers", "createGames", "inviteUsers"]
+      }
+    ]
+  }
+]

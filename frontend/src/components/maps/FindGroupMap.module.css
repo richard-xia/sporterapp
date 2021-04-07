@@ -1,0 +1,43 @@
+.filterCard {
+  position: absolute;
+  margin-top: -300px;
+}
+
+.filterBar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.showFilterButton {
+  float: right;
+}
+
+.infoWindow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icon {
+  max-height: 50px;
+  max-width: 50px;
+}
+
+.icon:hover {
+  cursor: pointer;
+}
+
+.name {
+  text-align: center;
+}
+
+.name:hover {
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.sport {
+  max-height: 30px;
+  max-width: 30px;
+}

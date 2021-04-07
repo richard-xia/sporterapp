@@ -1,0 +1,11 @@
+.mdbsearch {
+  position: absolute;
+  z-index: 2;
+  margin-left: 75px;
+  width: 10px;
+  text-align: center;
+}
+
+.listgroup {
+  max-height: 60px;
+}

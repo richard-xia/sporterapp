@@ -1,0 +1,69 @@
+.usericon {
+  float: left;
+  height: 40px;
+  width: 40px;
+  object-fit: cover;
+}
+
+.user {
+  margin-top: 5px;
+  margin-left: 65px;
+}
+
+.userName:hover {
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.searchicon {
+  float: left;
+  height: 40px;
+  width: 40px;
+  margin-top: -5px;
+}
+
+.searchName {
+  margin-right: 60px;
+  margin-top: 5px;
+}
+
+.searchName:hover {
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.stats {
+  margin-top: 5px;
+  margin-left: 225px;
+  position: absolute;
+  justify-content: center;
+}
+
+.delete {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 25px;
+}
+
+.roleicon {
+  margin-right: 10px;
+}
+
+.roleicon:hover {
+  color: lightskyblue;
+}
+
+.deleteicon:hover {
+  color: red;
+}
+
+.wins {
+  color: green;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}

@@ -1,0 +1,60 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.options {
+  display: flex;
+  align-items: center;
+}
+
+.acceptIcon {
+  color: lightgreen;
+  font-size: 30px;
+  margin-right: 25px;
+}
+
+.denyIcon {
+  color: #ffcccb;
+  font-size: 30px;
+}
+
+.acceptIcon:hover {
+  color: green;
+  font-size: 30px;
+  margin-right: 25px;
+}
+
+.denyIcon:hover {
+  color: red;
+  font-size: 30px;
+}
+
+.icon {
+  grid-area: icon;
+}
+
+.name {
+  grid-area: name;
+}
+
+.message {
+  overflow: hidden;
+  margin-bottom: -5px;
+  grid-area: message;
+}
+
+.message:hover {
+  cursor: pointer;
+  color: blue;
+  text-decoration: underline;
+}
+
+.info {
+  display: grid;
+  grid-template-columns: 100px 200px;
+  grid-template-rows: 25px 25px;
+  grid-template-areas:
+    'icon message'
+    'name message';
+}

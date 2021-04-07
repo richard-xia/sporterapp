@@ -1,0 +1,87 @@
+p.dashboardText {
+  font-size: 25px;
+  float: left;
+  margin-left: 125px;
+  margin-top: 1px;
+}
+
+.newbutton {
+  float: right;
+  width: 250px;
+  border-radius: 10px;
+  color: green;
+}
+
+.newbutton:hover {
+  color: #4285f4;
+}
+
+.tabs {
+  margin-bottom: 5px;
+}
+
+.header {
+  grid-area: header;
+  align-items: stretch;
+}
+
+.groups {
+  grid-area: groups;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  height: 325px;
+}
+.games {
+  grid-area: games;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  height: 325px;
+}
+
+.findButton {
+  border-radius: 5px;
+  width: 215px;
+}
+
+.searchIcon {
+  max-height: 20px;
+  margin-left: -10px;
+  margin-right: 10px;
+  margin-top: 3px;
+}
+
+.groupMapButton {
+  grid-area: groupMapButton;
+  float: left;
+  height: 50px;
+}
+
+.gameMapButton {
+  grid-area: gameMapButton;
+  width: 200px;
+  height: 50px;
+}
+.itemf {
+  grid-area: map;
+}
+
+.header {
+  grid-area: header;
+}
+
+.footer {
+  grid-area: footer;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 65px 350px 65px 350px;
+  grid-template-areas:
+    'header header'
+    'groups games'
+    'groupMapButton gameMapButton'
+    'map map';
+}
