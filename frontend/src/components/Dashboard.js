@@ -30,7 +30,7 @@ const Dashboard = (props) => {
   const [finishedGames, setFinishedGames] = useState([])
 
   //State for showing modal of FindGroupMap and FindGameMap
-  const [showGroups, setShowGroups] = useState(true)
+  const [showGroups, setShowGroups] = useState(false)
   const [showGames, setShowGames] = useState(false)
   //State for showing modal of CreateGroupForm and CreateGameForm
   const [showGroupModal, setShowGroupModal] = useState(false)
