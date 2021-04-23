@@ -1,6 +1,6 @@
 # Sporter
 
-Sporter is a MERN Application dedicated for creating sports groups and games. You can visit this project at [Sporter](https://sporterapp.herokuapp.com/) hosted on Heroku. This web application was created for my honours project at Carleton University and the core features of my application have been completed. There are no significant bugs or issues, however there are many ways the code can be improved. In this .README I will discuss how to run this application locally, the features and future improvements. You can also view a detailed final report of my project [here.](https://docs.google.com/document/d/1X9Bop_EQQWt0C6O9YUFMF3ybR9IjYfobb2eLX4mhIt4/edit?usp=sharing) 
+Sporter is a MERN Application dedicated for creating sports groups and games. You can visit this project at [Sporter](https://sporter-project.herokuapp.com/) hosted on Heroku. This web application was created for my honours project at Carleton University and the core features of my application have been completed. There are no significant bugs or issues, however there are many ways the code can be improved. In this .README I will discuss how to run this application locally, the features and future improvements. You can also view a detailed final report of my project [here.](https://docs.google.com/document/d/1X9Bop_EQQWt0C6O9YUFMF3ybR9IjYfobb2eLX4mhIt4/edit?usp=sharing) 
 
 The main account for testing the app is: `(email: test@gmail.com, password: 123456)`
 
