@@ -219,7 +219,6 @@ class FindMap extends Component {
                     ) || this.state.filterList.length === 0 ? (
                       <div>
                         <InfoWindow
-                          defaultOptions={{ disableAutoPan: true }}
                           position={{
                             lat: group.location.coordinates[0],
                             lng: group.location.coordinates[1],
@@ -274,7 +273,7 @@ class FindMap extends Component {
                             lng: game.location.coordinates[1],
                           }}
                         >
-                          <InfoWindow defaultOptions={{ disableAutoPan: true }}>
+                          <InfoWindow>
                             <div className={classes.infoWindow}>
                               <Image
                                 src={`${baseURL}/uploads/${game.photo}`}
