@@ -26,6 +26,12 @@ If you want to reload the original data in the server you can run `node seeder -
 2. `node seeder -d`
 3. `node seeder -i`
 
+# Demo Video
+
+
+
+
+
 # Features
 
 Users can create and manage their own groups and games using Sporter, including the roles of other users. There are 3 roles for Groups (Manage Users, Create Games and Invite Users) and 3 roles for Games (Manage Users, Manage Teams and Invite Users). Games can either belong to a specific group which tracks their wins and losses, or be open to users in any group.
