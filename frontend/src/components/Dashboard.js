@@ -51,12 +51,18 @@ const Dashboard = (props) => {
 
   //Get the information of the current user
   useEffect(() => {
-    navigator.geolocation.getCurrentPosition(function (position) {
-      setLocation({
-        lat: position.coords.latitude,
-        lng: position.coords.longitude,
-      })
-    })
+    navigator.geolocation.getCurrentPosition(
+      function (position) {
+        setLocation({
+          lat: position.coords.latitude,
+          lng: position.coords.longitude,
+        })
+      },
+      function (error) {
+        console.log('error')
+        setLocation({ lat: 45.3875812, lng: 75.69602019999999 })
+      }
+    )
     axios
       .get(`/api/v1/users/getDashboard`)
       .then((res) => {
